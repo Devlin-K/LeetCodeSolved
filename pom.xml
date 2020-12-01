@@ -13,7 +13,7 @@
     <version>1.0.0</version>
     <!--其他模块依赖此项目时打包成jar，其他项目打包的时候就可以引用这个 jar。-->
     <packaging>war</packaging>
-    <name>javatemplate</name>
+    <name>LeetCodeSolved</name>
     <description>https://github.com/Devlin-K/JavaTemplate.git</description>
 
     <properties>
@@ -83,19 +83,6 @@
             <version>1.1.24</version>
         </dependency>
 
-
-        <!--nacos 配置及服务发现-->
-        <dependency>
-            <groupId>com.alibaba.boot</groupId>
-            <artifactId>nacos-discovery-spring-boot-starter</artifactId>
-            <version> 0.2.7</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba.boot</groupId>
-            <artifactId>nacos-config-spring-boot-starter</artifactId>
-            <version> 0.2.1</version>
-        </dependency>
-
         <!-- freemarker 模板引擎 -->
         <dependency>
             <groupId>org.freemarker</groupId>
@@ -132,16 +119,6 @@
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
-        </dependency>
-
-        <!--redis-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
         </dependency>
 
         <dependency>

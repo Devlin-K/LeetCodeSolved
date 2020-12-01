@@ -1,34 +1,14 @@
 spring:
   main:
     allow-bean-definition-overriding: true
-  #  jackson:
-  #    date-format: yyyy-MM-dd HH:mm:ss
-  #    time-zone: GMT+8
-  #    serialization:
-  #      indent_output: true
-  #    property-naming-strategy: SNAKE_CASE
   output:
     ansi:
       enabled: always
-  servlet:
-    multipart:
-      # 开启 multipart 上传功能
-      enabled: true
-      # 最大文件大小
-      max-file-size: 200MB
-      # 最大请求大小
-      max-request-size: 215MB
   application:
-    name: javaTemplate
+    name: LeetCodeSolved
 
 project:
   version: @project.version@
 
-
-nacos:
-  config:
-    enabled: true
-    server-addr: 10.99.163.17:8848
-    namespace: 37e4e467-ace0-4712-b4d9-0ee0d3293efe
 server:
   port: 9002

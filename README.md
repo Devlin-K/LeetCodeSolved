@@ -1,9 +1,9 @@
-#  <font color="#5D478B" face="Comic Sans MS"><center>JavaTemplateRepositoryJFD</center></font>
-###  A project test for everything and aslo a java template project.
+#  <font color="#5D478B" face="Comic Sans MS"><center>Simple Project Which Solved Record LeetCode.</center></font>
+> 用最笨的办法解决尽可能多的高大上算法题。
 
-#### This project's Aim: A template project for build java project.
+#### This project's Aim:  A Project Record LeetCode Quest Solved.  记录力扣各种难度算法题解决的项目。
 
-#### This project's Tech: Java,Nacos,Redis,Docker,a little bit spring cloud.
+#### This project's Tech: Java,little bit of algorithm .
 
 <br>
 <br>

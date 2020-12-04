@@ -12,3 +12,7 @@ project:
 
 server:
   port: 9002
+logging:
+  level:
+    org.dkwork.leetcodesolved.questSolved.SingleNumberQuest:
+      error

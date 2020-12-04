@@ -24,11 +24,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @BelongPackage com.taiji.uias.config
  * @Describe:
  */
-@EnableSwagger2
-@EnableSwaggerBootstrapUi
-@ComponentScan(basePackages = {"org.dkwork.leetcodesolved.controller"})
-@Configuration
-@Profile({"dev"})
 public class SwaggerConfig extends WebMvcConfigurationSupport {
 
     @Value("${project.version}")

@@ -10,7 +10,7 @@ package org.dkwork.leetcodesolved.questSolved;
  *
  * 说明：你不能倾斜容器。
  */
-public class containerWithMostWater {
+public class ContainerWithMostWaterQuest {
     public int maxArea(int[] height) {
         int count = 0;
         for (int i = 1; i <= height.length; i++) {

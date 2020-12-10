@@ -1,6 +1,5 @@
 package org.dkwork.leetcodesolved.questSolved;
 
-import java.sql.Time;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -101,15 +100,15 @@ public class RomanToIntQuest {
     }
 
     public static int romanToIntV2(String s) {
-        s = s.replace("IV","a");
-        s = s.replace("IX","b");
-        s = s.replace("XL","c");
-        s = s.replace("XC","d");
-        s = s.replace("CD","e");
-        s = s.replace("CM","f");
+        s = s.replace("IV", "a");
+        s = s.replace("IX", "b");
+        s = s.replace("XL", "c");
+        s = s.replace("XC", "d");
+        s = s.replace("CD", "e");
+        s = s.replace("CM", "f");
 
         int result = 0;
-        for (int i=0; i<s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             result += convertR2I(s.charAt(i));
         }
         return result;

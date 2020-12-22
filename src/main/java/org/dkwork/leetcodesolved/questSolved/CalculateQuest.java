@@ -120,6 +120,7 @@ public class CalculateQuest {
                     case '/':
                         pre = number.pop();
                         number.push(pre / n);
+                        break;
                     default:
                         break;
 
